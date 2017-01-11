@@ -1,4 +1,4 @@
-public/vendors
+public/assets/vendors
 node_modules
 *.log
 .DS_Store
