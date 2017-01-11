@@ -5,9 +5,26 @@
     <title>emyl3 website</title>
 
     <script src="assets/vendors/angular.min.js" charset="utf-8"></script>
+    <script src="assets/vendors/angular-route.min.js" charset="utf-8"></script>
+
+    <!-- ANGULAR UI BOOTSTRAP-->
+    <script src="assets/vendors/angular-animate.min.js" charset="utf-8"></script>
+    <script src="assets/vendors/ui-bootstrap-tpls.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="assets/vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendors/ui-bootstrap-csp.css">
+
+    <script src="scripts/app.module.js" charset="utf-8"></script>
+    <script src="scripts/app.config.js" charset="utf-8"></script>
+    <script src="scripts/index.controller.js" charset="utf-8"></script>
+    <script src="scripts/home.controller.js" charset="utf-8"></script>
+
+    <base href="/">
   </head>
 
-  <body>
+  <body ng-app="webApp" ng-controller="IndexController as index">
+    <a href="/home">home</a>
+    <div ng-view>
+    </div>
 
   </body>
 </html>
