@@ -1,0 +1,17 @@
+{
+  "name": "emyl3_website",
+  "version": "1.0.0",
+  "description": "elisa lee's personal website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "./build.sh",
+    "start": "node server.js"
+  },
+  "author": "elisa.my.lee@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.1",
+    "express": "^4.14.0"
+  }
+}
